@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    max-height: 100vh;
+
+}
+
+footer {
+    height: 30vh;
+    background-color: pink;
+}
+
+body {
+    background: url(/img/background.webp) repeat center;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+#start {
+    position: absolute;
+    top: 60vh;
+    left: 47vw;
+    z-index: 100;
+    font-size: 2rem;
+    background-color: rgb(103, 199, 250);
+    color: white;
+    padding: 5px;
+    border: 2px solid  rgb(37, 137, 190);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#score {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 2rem;
+    padding: 5px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.ondbilimg, .minbilimg {
+    height: 180px;
+    border: 2px solid red;
+}
+
+#ondbil1 {
+    display: grid;
+    place-items: center;
+    position: relative;
+    left: 300px;
+    /*animation: ondbil1 infinite linear 3s;*/
+}
+
+#ondbil2 {
+    display: grid;
+    place-items: center;
+    position: relative;
+    left: 100px;
+    /*animation: ondbil2 infinite linear 4s;*/
+
+}
+
+#ondbil3 {
+    display: grid;
+    place-items: center;
+    position: relative;
+    left: -200px;
+    /*animation: ondbil3 infinite linear 2s;*/
+
+}
+
+#minbil {
+    position: relative;
+    top: -20vh;
+}
+
+
+@keyframes ondbil1 {
+    0% {
+        top: -30vh;
+    }
+
+    100% {
+        top: 100vh;
+    }
+}
+
+@keyframes ondbil2 {
+    0% {
+        top: -50vh;
+    }
+
+    100% {
+        top: 100vh;
+    }
+}
+
+@keyframes ondbil3 {
+    0% {
+        top: -80vh;
+    }
+
+    100% {
+        top: 100vh;
+    }
+}
+
+
+
+
+
+
+
+
+
